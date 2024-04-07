@@ -1,18 +1,15 @@
-import { MagnifyingGlass } from 'react-loader-spinner'
+import {FallingLines} from 'react-loader-spinner'
 import css from "./Loader.module.css"
+
 const Loader = () => {
   return (
 <div className={css.loader}>
-    <MagnifyingGlass
-      visible={true}
-      height="80"
-      width="80"
-      ariaLabel="magnifying-glass-loading"
-      wrapperStyle={{}}
-      wrapperClass="magnifying-glass-wrapper"
-      glassColor="#c0efff"
-      color="blue"
-      />
+    <FallingLines
+  color="rgb(73, 248, 42)"
+  width="100"
+  visible={true}
+  ariaLabel="falling-circles-loading"
+  />
 </div>
   )
 }

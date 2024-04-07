@@ -1,0 +1,14 @@
+.review_list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+    padding: 0 40px;
+    text-align: justify;
+}
+
+.author {
+    color: rgb(73, 248, 42);
+    margin-bottom: 8px;
+
+}

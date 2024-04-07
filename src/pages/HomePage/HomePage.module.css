@@ -1,0 +1,13 @@
+.home_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+}
+
+.home_title {
+    color: rgb(73, 248, 42);
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 2px rgba(75, 226, 80, 0.6);
+}
